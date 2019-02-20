@@ -1,0 +1,42 @@
+Activity Sýnýfý:
+
+- Java Class'ý + Layout (UI/Arayüz)
+
+
+
+
+Activity LifeCycle (Yaþam Döngüsü) Metotlarý
+
+- onCreate
+--  Activity sýnýfýnýn üretilme zamanýný temsil eder.
+-- Bir deðiþken tanýmlamasý
+-- bir nesnenin referans tanýmlamasý
+-- Bir butonun týklama olayý, ImageView görsel deðiþtirilme olayý (Nesne olaylarý)
+-- Activity sýnýfýnda sürekli çalýþtýrýlmasý gereken metotlarýn isimlerini yazabiliriz.
+-- Activity sýnýfý ilk üretilme zamanýnda 1 defa çalýþýr
+
+- onStart
+-- Activity sýnýfýnýn çalýþma zamaný
+
+- onStop
+-- Activity sýnýfýnýn durdurulma zamaný
+
+- onPause
+-- Activity sýnýfýnýn alta indirilme zamanýnda, uygulamanýn durdurulma zamanýný temsil eder.
+
+- onResume
+-- Activity sýnýfýnýn tekrar devam etme zamanýný temsil eder.
+
+- onDestroy
+-- Activity sýnýfýnýn kapatýlma (öldürülme) zamanýný temsil eder.
+
+
+- onBackPressed
+-- Geri Butonuna týklama olayý
+
+
+
+
+LogCat Yapýsý
+- 
+
